@@ -9,6 +9,7 @@
 
 body{
     background: #f9f9f9;
+    color: black;
     min-height: 100vh;
     overflow-x: hidden;   
 }
@@ -70,4 +71,22 @@ header .navigation a.active{
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
     z-index: 1;
+}
+
+.sec{
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p{
+     font-size: 1em;
+     color: #fff;
+     font-weight: 300;
 }
