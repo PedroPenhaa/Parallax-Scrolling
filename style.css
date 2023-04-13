@@ -10,7 +10,7 @@
 body{
     background: #f9f9f9;
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow-x: hidden;   
 }
 
 header{
@@ -20,15 +20,17 @@ header{
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     z-index: 100; 
+  /*  background: #f9f9f9;  */
 }
 
 header .logo{
     font-size: 2em;
     color: #359381;
     pointer-events: none;
+    margin-right: 270px;
 }
 
 header .navigation a{
@@ -54,8 +56,18 @@ header .navigation a.active{
     height: 100vh;
 }
 
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
 #text{
     position: absolute;
     font-size: 5em;
-    color: #333;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    z-index: 1;
 }
