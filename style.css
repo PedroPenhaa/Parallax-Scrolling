@@ -55,6 +55,7 @@ header .navigation a.active{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-bottom: 50px;
 }
 
 .parallax img{
@@ -63,6 +64,7 @@ header .navigation a.active{
     left: 0;
     width: 100%;
     pointer-events: none;
+    transition: 2.5s;
 }
 
 #text{
@@ -71,12 +73,14 @@ header .navigation a.active{
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
     z-index: 1;
+    transition: 1.3s;
 }
 
 .sec{
     position: relative;
     background: #003329;
     padding: 100px;
+    z-index: 1;
 }
 
 .sec h2{
